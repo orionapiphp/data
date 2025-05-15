@@ -13,8 +13,5 @@
             "name": "Shyam Dubey"
         }
     ],
-    "minimum-stability": "stable",
-    "require": {
-        "orionapi/core":"^1.0"
-    }
+    "minimum-stability": "stable"
 }

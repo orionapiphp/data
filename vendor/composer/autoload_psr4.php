@@ -7,5 +7,4 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'OrionApi\\Data\\' => array($baseDir . '/src'),
-    'OrionApi\\Core\\' => array($vendorDir . '/orionapi/core/src'),
 );

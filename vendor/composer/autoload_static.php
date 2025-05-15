@@ -10,7 +10,6 @@ class ComposerStaticInit7d1830b174de26e9c9c466d5cd368512
         'O' => 
         array (
             'OrionApi\\Data\\' => 14,
-            'OrionApi\\Core\\' => 14,
         ),
     );
 
@@ -18,10 +17,6 @@ class ComposerStaticInit7d1830b174de26e9c9c466d5cd368512
         'OrionApi\\Data\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
-        ),
-        'OrionApi\\Core\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/orionapi/core/src',
         ),
     );
 
