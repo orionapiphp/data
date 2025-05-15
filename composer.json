@@ -1,0 +1,21 @@
+{
+    "name": "orionapi/data",
+    "description": "A complete package to interact with database.",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "OrionApi\\Data\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shyam Dubey"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "orionapi/core":"^1.0",
+        "swagger-api/swagger-ui": "^5.21"
+    }
+}

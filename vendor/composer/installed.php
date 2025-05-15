@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'orionapi/db',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'orionapi/core' => array(
+            'pretty_version' => 'v1.0.0',
+            'version' => '1.0.0.0',
+            'reference' => '4a9358f5026f6867482f1d9178e6a3813df6021f',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../orionapi/core',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'orionapi/db' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'swagger-api/swagger-ui' => array(
+            'pretty_version' => 'v5.21.0',
+            'version' => '5.21.0.0',
+            'reference' => 'fceaec605072fbc717a04895bd19814d9a1c8e6d',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../swagger-api/swagger-ui',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
